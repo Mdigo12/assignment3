@@ -24,9 +24,8 @@
             <div class="form-group">
                 <form action="">
                     <label for="name"> Name:</label>
-                    <input type="text" value="name" placeholder="Enter your name" id="name"
-                        aria-errormessage="Can't be empty">
-                        <button class="btn btn-success" type="submit" title="click to submit" id="next">Next</button>
+                    <input type="text" placeholder="Enter your name" id="name" aria-errormessage="Can't be empty">
+                    <button class="btn btn-success" type="submit" title="click to submit" id="next">Next</button>
                 </form>
             </div>
         </div>
@@ -34,7 +33,15 @@
         <div class="q2">
             <div class="form-group">
                 <form action="">
-
+                    <h4>To serve you better, tell us the hotel location</h4>
+                    <label for="location">Select City</label>
+                    <select name="location" id="location">
+                        <option value="cairo">Cairo</option>
+                        <option value="cape_town">Cape Town</option>
+                        <option value="logos">Lagos</option>
+                        <option value="nairobi">Nairobi</option>
+                    </select>
+                    <button class="btn btn-success" type="submit" title="click to submit" id="next">Next</button>
                 </form>
 
             </div>
