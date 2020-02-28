@@ -19,6 +19,7 @@
             <h4>We Love, We Care and We give you your Best</h4>
             <p>Tell Us Want you Want</p>
         </div>
+        <!-- end of welcoming page -->
 
         <div class="q1">
             <div class="form-group">
@@ -29,6 +30,7 @@
                 </form>
             </div>
         </div>
+        <!-- end of name div -->
 
         <div class="q2">
             <div class="form-group">
@@ -46,21 +48,55 @@
 
             </div>
         </div>
+        <!-- end of location div -->
 
         <div class="q3">
             <div class="form-group">
+                <form action="">
+                    <h4>Price Range can help us serve you better</h4>
+                   
+                    <input type="radio" name="range" id="range1" value="1" checked>
+                    <label for="range1">$400-$600</label><br>
+                    <input type="radio" name="range" id="range2" value="2">
+                    <label for="range1">$800-$1000</label>
+
+                    <button class="btn btn-success" type="submit" title="click to submit" id="next">Next</button>
+
+                </form>
 
             </div>
         </div>
+        <!-- end of price range div  -->
 
         <div class="q4">
             <div class="form-group">
+                <form action="">
+                    <h4>You want a 5 star hotel or a 6 star hotel?</h4>
+                    <p>Please choose below</p>
+                    <input type="radio" name="rate" id="rate5" value="5" checked>
+                    <label for="rate5">5 Star</label><br>
+                    <input type="radio" name="rate" id="rate6" value="6">
+                    <label for="rate6">6 Star</label>
+
+                    <button class="btn btn-success" type="submit" title="click to submit" id="next">Next</button>
+
+                </form>
 
             </div>
         </div>
+        <!-- end of rating div -->
 
+        <div class="result">
+           <p>Thank for your time and responses. Here is the available hotel of your specifications. <br> <span id="hotel_name"></span>
+            click to visit their site</p> 
+
+        </div>
+        <!-- end of the result page -->
+
+        
 
     </div>
+    <!-- end of container-fluid -->
 </body>
 
 </html>
