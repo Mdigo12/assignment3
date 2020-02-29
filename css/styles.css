@@ -32,3 +32,6 @@ table{
     align-items: center;
     display: inline-flex;
 }
+.form-group{
+    width: 100%;
+}
