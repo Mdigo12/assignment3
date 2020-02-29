@@ -24,3 +24,11 @@ table{
     width: 100%;
     background-color:white;
 }
+.q2{
+    height: 100vh;
+    width: 100%;
+    background-color: chocolate;
+    text-align: center;
+    align-items: center;
+    display: inline-flex;
+}
