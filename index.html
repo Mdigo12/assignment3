@@ -7,24 +7,28 @@
     <title>Catchy Hotel</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-
+    <link href="https://fonts.googleapis.com/css?family=Kavivanar|Tangerine&display=swap" rel="stylesheet">
     <script src="js/jQuery-3.4.1.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
 </head>
 
 <body>
-    <div class="container-fluid">
+    <div class="">
         <div class="welcoming">
+            <img class="img-fluids image1" src="https://cdn.pixabay.com/photo/2017/03/09/06/30/pool-2128578__340.jpg"
+                alt="image">
             <table>
                 <th>
                     <h4>We Love, We Care & We Give You Your Best</h4>
                 </th>
                 <tr>
-                    <td>Tell Us Want You Want</td>
+                    <td
+                        style="font-family: Tangerine; font-weight: 800; font-size: large; letter-spacing: 4px; font-size: 25px;">
+                        Tell Us Want You Want</td>
                 </tr>
                 <tr>
-                    <td><button class="btn btn-warning">Get Started</button></td>
+                    <td><button class="btn  btn-default " id="button1">Get Started</button></td>
                 </tr>
             </table>
 
@@ -32,11 +36,16 @@
         <!-- end of welcoming page -->
 
         <div class="q1 ">
+
+            <img class="img-fluids image2" id="image2" src="https://cdn.pixabay.com/photo/2016/02/19/10/01/hotel-1209021__340.jpg"
+                alt="image">
+
             <div class="form-group naming">
                 <form action="">
                     <label for="name"> Name:</label>
                     <input type="text" placeholder="Enter your name" id="name" aria-errormessage="Can't be empty"><br>
-                    <button class="btn btn-warning" style="width: 15%;" type="submit" title="click to submit" id="next">Next</button>
+                    <button class="btn btn-default" id="button2" style="width: 12%;" type="submit"
+                        title="click to submit" id="next">Next</button>
                 </form>
             </div>
         </div>
@@ -53,7 +62,8 @@
                         <option value="logos">Lagos</option>
                         <option value="nairobi">Nairobi</option>
                     </select>
-                    <button class="btn btn-success" type="submit" title="click to submit" id="next">Next</button>
+                    <button class="btn btn-default" id="button3" style="width: 15%;" type="submit"
+                        title="click to submit" id="next">Next</button>
                 </form>
 
             </div>
@@ -66,11 +76,12 @@
                     <h4>Price Range can help us serve you better</h4>
 
                     <input type="radio" name="range" id="range1" value="1" checked>
-                    <label for="range1">$400-$600</label><br>
+                    <label for="range1" style="margin-right: 8px;">$400-$600</label><br>
                     <input type="radio" name="range" id="range2" value="2">
-                    <label for="range1">$800-$1000</label>
+                    <label for="range1">$800-$1000</label><br>
 
-                    <button class="btn btn-success" type="submit" title="click to submit" id="next">Next</button>
+                    <button class="btn btn-default" id="button4" style="width: 15%;" type="submit"
+                        title="click to submit" id="next">Next</button>
 
                 </form>
 
@@ -86,9 +97,10 @@
                     <input type="radio" name="rate" id="rate5" value="5" checked>
                     <label for="rate5">5 Star</label><br>
                     <input type="radio" name="rate" id="rate6" value="6">
-                    <label for="rate6">6 Star</label>
+                    <label for="rate6">6 Star</label><br>
 
-                    <button class="btn btn-success" type="submit" title="click to submit" id="next">Next</button>
+                    <button class="btn btn-default" id="button5" style="width: 15%;" type="submit"
+                        title="click to submit" id="next">Next</button>
 
                 </form>
 
@@ -97,8 +109,8 @@
         <!-- end of rating div -->
 
         <div class="result">
-            <p>Thank for your time and responses. Here is the available hotel of your specifications. <br> <span
-                    id="hotel_name"></span>
+            <p style="width: 100%;">Thank for your time and responses. Here is the available hotel of your
+                specifications. <br> <span id="hotel_name"></span>
                 click to visit their site</p>
 
         </div>
