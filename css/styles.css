@@ -136,3 +136,6 @@ h4{
     font-family: Kavivanar ;
     letter-spacing: 10px;
 }
+.q1,.q2,.q3,.q4,.result,.page-footer{
+    display: none;
+}
