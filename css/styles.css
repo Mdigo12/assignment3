@@ -3,7 +3,7 @@ body{
 }
 
 .welcoming{
-    height: 100%;
+    height: 100vh;
     width: 100%;
     text-align: center;
     align-items: center;
@@ -12,6 +12,7 @@ body{
     
     }
     .image1{
+        height: 100%;
         width: 100%;
         position: relative;
         opacity: 0.5;
@@ -23,18 +24,19 @@ table{
     position: absolute;
    }
 .q1{
-    height: 100%;
+    height: 100vh;
     width: 100%;
     background-color: #a7bfe8;
     text-align: center;
     align-items: center;
     display: inline-flex;
-    overflow-y: hidden;
+   
    
    }
-   .image2{
+   #image2{
     position: relative;
-    opacity: 0.5;
+    opacity: 0.6;
+    height: 100%;
     width: 100%;
     }
 .naming{
@@ -136,6 +138,6 @@ h4{
     font-family: Kavivanar ;
     letter-spacing: 10px;
 }
-.q1,.q2,.q3,.q4,.result,.page-footer{
+/* .welcoming,.q2,.q3,.q4,.result,.page-footer{
     display: none;
-}
+} */
