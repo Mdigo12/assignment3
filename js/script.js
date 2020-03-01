@@ -9,7 +9,7 @@ var only="One" +" "+ "\&" + " " +"only"+" "+ "Cape" +" "+"Town";//6_8-10
 var nile="The" +" "+ " "+"Nile"+ " "+"Ritz-Carlton" +" "+"Cairo";//5_4-6
 var kemp="Kempinski"+" " +"Nile"+" "+"Hotel"+" " +"Garden" +" "+"City"+" "+"Cairo";//6_8-10
 
-// user logic
+// user interface logic
 $(document).ready(function(){
     $(".q1").hide();
     $(".q2").hide();
